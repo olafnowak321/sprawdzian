@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zagadnienia - Biblia i Mitologia</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="container">
+        <header>
+            <h1>Zagadnienia do Sprawdzianu</h1>
+            <p>Biblia i Mitologia</p>
+        </header>
+
+        <nav class="tabs">
+            <button class="tab-btn active" data-tab="biblia">Biblia</button>
+            <button class="tab-btn" data-tab="mitologia">Mitologia</button>
+        </nav>
+
+        <main>
+            <!-- BIBLIA SECTION -->
+            <section id="biblia" class="tab-content active">
+
+                <div class="accordion-item">
+                    <button class="accordion-header">Księga Rodzaju (Genesis) <span class="icon">+</span></button>
+                    <div class="accordion-panel">
+                        <div class="card">
+                            <h3>Stworzenie świata i człowieka</h3>
+                            <p>Bóg stworzył świat w 6 dni, a 7. dnia odpoczął. Stwarzanie odbywało się mocą słowa
+                                („Niech się stanie”). Człowiek został stworzony na obraz i podobieństwo Boga, jako
+                                korona stworzenia. Jest to opis teocentryczny, ukazujący dobroć i celowość stworzenia.
+                            </p>
+                        </div>
+                        <div class="card">
+                            <h3>Grzech pierworodny</h3>
+                            <p>Złamanie zakazu spożywania owocu z drzewa poznania dobra i zła przez Adama i Ewę
+                                (skuszonych przez węża). Skutki: wygnanie z raju, śmiertelność, cierpienie, konieczność
+                                pracy.</p>
+                        </div>
+                        <div class="card">
+                            <h3>Kain i Abel</h3>
+                            <p>Synowie Adama i Ewy. Kain (rolnik) zabił Abla (pasterza) z zazdrości o to, że ofiara Abla
+                                bardziej podobała się Bogu. To pierwsze morderstwo w historii. Kainowe znamię – piętno
+                                mordercy, ale też znak ochrony Bożej.</p>
+                        </div>
+                        <div class="card">
+                            <h3>Potop i Noe</h3>
+                            <p>Bóg postanowił zgładzić ludzkość za zepsucie, oszczędzając jedynie sprawiedliwego Noego z
+                                rodziną i zwierzętami. Arka stała się symbolem ocalenia. Po potopie Bóg zawarł z ludźmi
+                                przymierze (tęcza).</p>
+                        </div>
+                        <div class="card">
+                            <h3>Wieża Babel</h3>
+                            <p>Ludzie chcieli zbudować wieżę sięgającą nieba, by dorównać Bogu (pycha). Bóg pomieszał im
+                                języki, co uniemożliwiło budowę. Symbol braku porozumienia i ludzkiej pychy.</p>
+                        </div>
+                        <div class="card">
+                            <h3>Sodoma i Gomora</h3>
+                            <p>Miasta zniszczone przez Boga deszczem ognia i siarki za grzechy mieszkańców. Lot i jego
+                                córki zostali ocaleni, ale żona Lota obejrzała się i zamieniła w słup soli.</p>
+                        </div>
+                        <div class="card">
+                            <h3>Abraham i Izaak</h3>
+                            <p>Bóg wystawił wiarę Abrahama na próbę, nakazując mu złożyć w ofierze syna Izaaka. W
+                                ostatniej chwili anioł powstrzymał rękę Abrahama. Wzór bezgranicznego zaufania Bogu.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <button class="accordion-header">Księga Hioba <span class="icon">+</span></button>
+                    <div class="accordion-panel">
+                        <div class="card">
+                            <h3>Historia i sens cierpienia</h3>
+                            <p>Hiob był człowiekiem sprawiedliwym, bogatym i szczęśliwym. Stracił majątek, dzieci i
+                                zdrowie w wyniku zakładu Boga z Szatanem. Hiob nie rozumie swojego cierpienia (nie
+                                zawinił), ale nie bluźni przeciw Bogu. Przesłanie księgi mówi, że cierpienie jest
+                                niezawinione, stanowi tajemnicę i próbę wiary, a nie prostą karę.</p>
+                        </div>
+                        <div class="card">
+                            <h3>Przyjaciele Hioba</h3>
+                            <p>Przekonywali Hioba, że musiał zgrzeszyć, skoro cierpi (tradycyjne myślenie: wina = kara).
+                                Hiob bronił swojej niewinności.</p>
+                        </div>
+                        <div class="card">
+                            <h3>Pojęcia</h3>
+                            <ul>
+                                <li><strong>Teodycea:</strong> Próba pogodzenia istnienia dobrego i wszechmocnego Boga z
+                                    istnieniem zła i cierpienia na świecie.</li>
+                                <li><strong>Teofania:</strong> Objawienie się Boga człowiekowi (Hiobowi Bóg ukazał się w
+                                    wichrze).</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <button class="accordion-header">Księga Koheleta (Eklezjastesa) <span class="icon">+</span></button>
+                    <div class="accordion-panel">
+                        <div class="card">
+                            <h3>Motyw Vanitas</h3>
+                            <p><em>Vanitas vanitatum et omnia vanitas</em> – "Marność nad marnościami i wszystko
+                                marność". Wszystko na ziemi – bogactwo, władza, mądrość, przyjemności – jest
+                                przemijające i kruche. Należy zachować dystans do dóbr doczesnych, cieszyć się chwilą
+                                (carpe diem w wersji biblijnej), ale pamiętać o Bogu, bo tylko On jest stały.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <button class="accordion-header">Psalmy <span class="icon">+</span></button>
+                    <div class="accordion-panel">
+                        <div class="card">
+                            <h3>Gatunki psalmów</h3>
+                            <p><strong>Psalm:</strong> Biblijny utwór poetycki o charakterze modlitewno-hymnicznym.</p>
+                            <ul>
+                                <li><strong>Błagalne:</strong> Prośba o pomoc w nieszczęściu.</li>
+                                <li><strong>Alfa i omega:</strong> Początek i koniec, ktoś najważniejszy.</li>
+                                <li><strong>Ciemności egipskie:</strong> Nieprzeniknione ciemności.</li>
+                                <li><strong>Hiobowe wieści:</strong> Tragiczne, smutne wiadomości.</li>
+                                <li><strong>Umywać ręce:</strong> Nie brać odpowiedzialności (Piłat).</li>
+                                <li><strong>Judaszowe srebrniki:</strong> Zapłata za zdradę.</li>
+                                <li><strong>Kainowe znamię:</strong> Piętno zbrodniarza.</li>
+                                <li><strong>Pocałunek Judasza:</strong> Fałszywy gest przyjaźni kryjący zdradę.</li>
+                                <li><strong>Rzeź niewiniątek:</strong> Prześladowanie niewinnych.</li>
+                                <li><strong>Rzucać perły przed wieprze:</strong> Dawać coś wartościowego tym, którzy
+                                    tego nie docenią.</li>
+                                <li><strong>Wdowi grosz:</strong> Niewielki dar, ale dany z wielkim poświęceniem.
+                                </li>
+                                <li><strong>Zakazany owoc:</strong> Coś kuszącego, ale niedozwolonego.</li>
+                                <li><strong>Wieża Babel:</strong> Zamęt, brak porozumienia.</li>
+                                <li><strong>Salomonowy wyrok:</strong> Mądre, sprawiedliwe i zaskakujące rozwiązanie
+                                    trudnej sprawy.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <button class="accordion-header">Styl i Odczytanie <span class="icon">+</span></button>
+                    <div class="accordion-panel">
+                        <div class="card">
+                            <h3>Sposoby odczytania Biblii</h3>
+                            <ul>
+                                <li><strong>Literalny:</strong> Dosłowne znaczenie tekstu.</li>
+                                <li><strong>Moralistyczny:</strong> Wskazówki jak żyć.</li>
+                                <li><strong>Alegoryczny:</strong> Ukryte znaczenie duchowe/symboliczne.</li>
+                            </ul>
+                        </div>
+                        <div class="card">
+                            <h3>Pojęcia Maturalne</h3>
+                            <ul>
+                                <li><strong>Uniwersalizm:</strong> Przesłanie ponadczasowe.</li>
+                                <li><strong>Alegoria:</strong> Elementy mają jedno, stałe znaczenie (np. siewca =
+                                    Bóg).
+                                </li>
+                                <li><strong>Dydaktyzm:</strong> Cel pouczający, wychowawczy.</li>
+                            </ul>
+                        </div>
+                        <div class="card">
+                            <h3>Cechy stylu biblijnego</h3>
+                            <p>Podniosły ton (patos), inwersje składniowe, liczne powtórzenia i anafory, paralelizmy
+                                składniowe (podobna budowa zdań następujących po sobie), bogata symbolika i
+                                metaforyka,
+                                zdania rozpoczynające się od spójników (np. "I rzekł...").</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- MITOLOGIA SECTION -->
+            <section id="mitologia" class="tab-content">
+
+                <div class="accordion-item">
+                    <button class="accordion-header">Powstanie Świata (Kosmogonia) <span class="icon">+</span></button>
+                    <div class="accordion-panel">
+                        <div class="card">
+                            <h3>Początek</h3>
+                            <p>Na początku był Chaos. Z niego wyłonili się pierwsi bogowie: Gaja (Ziemia) i Uranos
+                                (Niebo). Z ich związku powstali Tytani, Cyklopi i Sturęcy.</p>
+                        </div>
+                        <div class="card">
+                            <h3>Pokolenia bogów</h3>
+                            <p>Uranos nienawidził swoich dzieci i strącał je do Tartaru. Jego syn Kronos okaleczył go i
+                                przejął władzę. Kronos połykał swoje dzieci (w obawie przed detronizacją). Ocalał Zeus,
+                                który pokonał ojca (Tytanomachia) i podzielił się władzą z braćmi (Posejdonem i
+                                Hadesem).</p>
+                        </div>
+                        <div class="card">
+                            <h3>Powstanie człowieka</h3>
+                            <p>Według jednego z mitów człowieka ulepił Prometeusz z gliny pomieszanej ze łzami.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <button class="accordion-header">Bogowie Olimpijscy <span class="icon">+</span></button>
+                    <div class="accordion-panel">
+                        <div class="card">
+                            <ul class="gods-list">
+                                <li><strong>Zeus:</strong> Władca bogów i ludzi, niebo, pioruny. Atrybut: piorun, orzeł,
+                                    tarcza (egida).</li>
+                                <li><strong>Hera:</strong> Opiekunka małżeństw, żona Zeusa. Atrybut: paw, owoc granatu.
+                                </li>
+                                <li><strong>Posejdon:</strong> Władca mórz. Atrybut: trójząb.</li>
+                                <li><strong>Hades:</strong> Władca podziemi (świata zmarłych). Atrybut: klucze, Cerber.
+                                </li>
+                                <li><strong>Demeter:</strong> Bogini urodzaju, natury. Atrybut: kłosy zboża.</li>
+                                <li><strong>Atena:</strong> Bogini mądrości i wojny sprawiedliwej. Atrybut: sowa,
+                                    włócznia, tarcza.</li>
+                                <li><strong>Apollo:</strong> Bóg sztuki, słońca, wróżbiarstwa. Atrybut: lira, łuk.</li>
+                                <li><strong>Artemida:</strong> Bogini łowów, lasów. Atrybut: łuk, łania.</li>
+                                <li><strong>Ares:</strong> Bóg wojny krwawej. Atrybut: miecz, zbroja.</li>
+                                <li><strong>Afrodyta:</strong> Bogini miłości i piękna. Atrybut: gołąb, muszla.</li>
+                                <li><strong>Hefajstos:</strong> Bóg ognia, kowali. Atrybut: młot, kowadło.</li>
+                                <li><strong>Hermes:</strong> Posłaniec bogów, opiekun kupców i złodziei. Atrybut:
+                                    kaduceusz, sandały ze skrzydłami.</li>
+                                <li><strong>Dionizos:</strong> Bóg wina i zabawy. Atrybut: winorośl.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <button class="accordion-header">Najważniejsze Mity <span class="icon">+</span></button>
+                    <div class="accordion-panel">
+                        <div class="card">
+                            <h3>Prometeusz</h3>
+                            <p>Stworzył człowieka i wykradł dla niego ogień z Olimpu. Ukarany przez Zeusa przykuciem do
+                                skały Kaukazu, gdzie sęp wyjadał mu odrastającą wątrobę. Symbol buntu w słusznej sprawie
+                                i poświęcenia dla ludzkości (postawa prometejska).</p>
+                        </div>
+                        <div class="card">
+                            <h3>Syzyf</h3>
+                            <p>Przebiegły król, który oszukiwał bogów i uwięził śmierć. Skazany na wieczne wtaczanie
+                                głazu, który zawsze spadał przed szczytem. Symbol bezużytecznej, ciężkiej pracy.</p>
+                        </div>
+                        <div class="card">
+                            <h3>Dedal i Ikar</h3>
+                            <p>Dedal (wynalazca) zbudował labirynt dla Minotaura. Uwięziony na Krecie, skonstruował
+                                skrzydła z piór i wosku. Ikar (syn) mimo przestróg ojca wzleciał za blisko słońca, wosk
+                                się stopił i zginął. Symbol młodzieńczej nierozwagi i marzeń.</p>
+                        </div>
+                        <div class="card">
+                            <h3>Orfeusz i Eurydyka</h3>
+                            <p>Orfeusz (muzyk) zszedł do Hadesu po zmarłą żonę. Jego gra wzruszyła władców podziemi.
+                                Mógł ją wyprowadzić pod warunkiem, że nie obejrzy się za siebie. Złamał zakaz i stracił
+                                ją na zawsze. Symbol potęgi miłości i sztuki.</p>
+                        </div>
+                        <div class="card">
+                            <h3>Demeter i Kora</h3>
+                            <p>Hades porwał Korę (Persefonę). Zrozpaczona matka Demeter sprawiła, że ziemia przestała
+                                rodzić. Kompromis: Kora spędza część roku w Hadesie (zima), a część z matką
+                                (wiosna/lato). Mit wyjaśniający pory roku.</p>
+                        </div>
+                        <div class="card">
+                            <h3>Edyp i Antygona</h3>
+                            <p>Edyp nieświadomie zabił ojca i ożenił się z matką (fatum). Jego córka Antygona, wbrew
+                                zakazowi króla Kreona, pochowała brata zdrajcę, kierując się prawem boskim, a nie
+                                ludzkim. Konflikt tragiczny.</p>
+                        </div>
+                        <div class="card">
+                            <h3>Inne mity</h3>
+                            <ul>
+                                <li><strong>Wojna Trojańska:</strong> Parys rozstrzygnął spór o jabłko dla
+                                    najpiękniejszej (dla Afrodyty) i porwał Helenę. Grecy ruszyli na Troję. Wojnę
+                                    zakończył podstęp Odyseusza z Koniem Trojańskim.</li>
+                                <li><strong>Narcyz:</strong> Zakochał się we własnym odbiciu. Symbol miłości własnej.
+                                </li>
+                                <li><strong>Tezeusz i Ariadna:</strong> Ariadna dała Tezeuszowi nić, by wyszedł z
+                                    labiryntu po zabiciu Minotaura.</li>
+                                <li><strong>Herakles:</strong> Wykonał 12 prac (m.in. stajnia Augiasza) jako pokutę.
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <button class="accordion-header">Pojęcia <span class="icon">+</span></button>
+                    <div class="accordion-panel">
+                        <div class="card">
+                            <ul>
+                                <li><strong>Kosmogonia:</strong> Mity o powstaniu świata.</li>
+                                <li><strong>Teogonia:</strong> Mity o pochodzeniu i rodowodach bogów.</li>
+                                <li><strong>Antropogonia:</strong> Mity o powstaniu człowieka.</li>
+                                <li><strong>Eschatologia:</strong> Poglądy dotyczące losów pośmiertnych i końca świata.
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <button class="accordion-header">Frazeologia Mitologiczna <span class="icon">+</span></button>
+                    <div class="accordion-panel">
+                        <div class="card">
+                            <ul class="phrase-list">
+                                <li><strong>Pięta Achillesa:</strong> Słaby punkt.</li>
+                                <li><strong>Puszka Pandory:</strong> Źródło niekończących się nieszczęść.</li>
+                                <li><strong>Stajnia Augiasza:</strong> Wielki bałagan, sprawa zaniedbana.</li>
+                                <li><strong>Nić Ariadny:</strong> Wskazówka, sposób wyjścia z trudnej sytuacji.</li>
+                                <li><strong>Jabłko niezgody:</strong> Przyczyna konfliktu.</li>
+                                <li><strong>Ikarowe loty:</strong> Śmiałe plany kończące się klęską.</li>
+                                <li><strong>Między Scyllą a Charybdą:</strong> W sytuacji bez wyjścia, między dwoma
+                                    niebezpieczeństwami.</li>
+                                <li><strong>Syzyfowa praca:</strong> Ciężka, bezcelowa praca.</li>
+                                <li><strong>Męki Tantala:</strong> Cierpienie wynikające z niemożności osiągnięcia celu,
+                                    który jest blisko.</li>
+                                <li><strong>Koń trojański:</strong> Podstęp, ukryte niebezpieczeństwo.</li>
+                                <li><strong>Koszula Dejaniry:</strong> Źródło wielkiego cierpienia, od którego nie można
+                                    uciec.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
