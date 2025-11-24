@@ -1,0 +1,225 @@
+:root {
+    --bg-color: #1a1a1a;
+    --text-color: #e0e0e0;
+    --primary-color: #64b5f6;
+    --secondary-color: #2d2d2d;
+    --accent-color: #404040;
+    --card-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    --font-main: 'Inter', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: var(--font-main);
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    line-height: 1.6;
+    padding: 20px;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: transparent;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 40px;
+    padding: 20px 0;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    color: #ecf0f1;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.2rem;
+    color: #bdc3c7;
+}
+
+/* Tabs Navigation */
+.tabs {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    background: var(--secondary-color);
+    padding: 10px;
+    border-radius: 50px;
+    box-shadow: var(--card-shadow);
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.tab-btn {
+    background: none;
+    border: none;
+    padding: 12px 30px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 40px;
+    transition: all 0.3s ease;
+    color: #bdc3c7;
+}
+
+.tab-btn:hover {
+    color: var(--primary-color);
+}
+
+.tab-btn.active {
+    background-color: var(--primary-color);
+    color: white;
+    box-shadow: 0 2px 4px rgba(74, 144, 226, 0.3);
+}
+
+/* Content Sections */
+.tab-content {
+    display: none;
+    animation: fadeIn 0.5s ease;
+}
+
+.tab-content.active {
+    display: block;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Accordion Styles */
+.accordion-item {
+    margin-bottom: 15px;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: var(--card-shadow);
+    background-color: var(--secondary-color);
+}
+
+.accordion-header {
+    width: 100%;
+    background-color: var(--secondary-color);
+    color: #ecf0f1;
+    cursor: pointer;
+    padding: 20px 25px;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 1.3rem;
+    font-weight: 600;
+    font-family: var(--font-main);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: background-color 0.3s ease;
+    border-left: 5px solid var(--primary-color);
+    position: relative;
+    z-index: 10;
+}
+
+.accordion-header:hover {
+    background-color: var(--accent-color);
+}
+
+.accordion-header.active {
+    background-color: var(--accent-color);
+}
+
+.accordion-header .icon {
+    font-size: 1.5rem;
+    transition: transform 0.3s ease;
+    color: var(--primary-color);
+}
+
+.accordion-header.active .icon {
+    transform: rotate(45deg);
+}
+
+.accordion-panel {
+    padding: 0 25px;
+    background-color: var(--secondary-color);
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out, padding 0.3s ease;
+}
+
+.accordion-panel.open {
+    padding: 20px 25px;
+    border-top: 1px solid var(--accent-color);
+}
+
+/* Cards inside Accordion */
+.card {
+    background-color: rgba(255, 255, 255, 0.05);
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 15px;
+    border-left: 3px solid var(--primary-color);
+}
+
+.card:last-child {
+    margin-bottom: 0;
+}
+
+.card h3 {
+    font-size: 1.2rem;
+    color: #ecf0f1;
+    margin-bottom: 10px;
+}
+
+.card p {
+    color: #b0bec5;
+    margin-bottom: 10px;
+}
+
+.card ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.card li {
+    margin-bottom: 8px;
+    padding-left: 20px;
+    position: relative;
+}
+
+.card li::before {
+    content: "•";
+    color: var(--primary-color);
+    font-weight: bold;
+    position: absolute;
+    left: 0;
+}
+
+.phrase-list li strong,
+.gods-list li strong {
+    color: #ecf0f1;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 2rem;
+    }
+
+    .accordion-header {
+        padding: 15px 20px;
+        font-size: 1.1rem;
+    }
+}
